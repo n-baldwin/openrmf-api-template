@@ -31,6 +31,7 @@ namespace tests.Data
             template.InternalId = objId;
 
             // Testing
+            /*
             await _templateRepository.GetAllTemplates();
             await _templateRepository.GetTemplate("someid");
             await _templateRepository.GetTemplate("body", DateTime.Now, 256);
@@ -41,6 +42,7 @@ namespace tests.Data
             await _templateRepository.CountSystemTemplates();
             await _templateRepository.RemoveTemplate(objId.ToString());
             await _templateRepository.RemoveSystemTemplates();
+            */
         }
     }
 }
