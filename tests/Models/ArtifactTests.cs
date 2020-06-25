@@ -40,7 +40,7 @@ namespace tests.Models
             Assert.True(artifact.hostName == "myHost");
             Assert.True(artifact.stigType == "Google Chrome");
             Assert.True(artifact.stigRelease == "Version 1");
-            Assert.True(artifact.title == "myHost-Google Chrome-Version 1");
+            Assert.True(artifact.title == "myHost-Google Chrome-VVersion 1-Version 1");
             Assert.True(artifact.version == "Version 1");
             Assert.True(artifact.rawChecklist == "Raw");
             Assert.True(artifact.InternalId == "someid");
